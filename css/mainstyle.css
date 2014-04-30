@@ -1,6 +1,8 @@
 body{
+	background-color: #000000;
 	background-image:url('/image/binary.png');
 	background-repeat:repeat;
+	opacity: 0.5;
 }
 div{
 	border:5px # solid;
