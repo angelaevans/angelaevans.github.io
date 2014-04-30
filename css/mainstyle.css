@@ -1,11 +1,11 @@
 body{
-	background-image:url('/image/px_by_Gre3g.png');
+	background-image:url('/image/binary.png');
 	background-repeat:repeat;
 }
 div{
-	border:5px solid;
+	border:5px # solid;
 	border-radius:25px;
-	background-color: #CCCCCC;
+	background-color: #000000;
 }
 h1{
 	text-align: center;
