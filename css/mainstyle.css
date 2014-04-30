@@ -26,6 +26,8 @@ h3{
 	color: #008E00;
 	font-size: 1.5em;
 	line-height: normal;
+	margin: 0; 
+	padding: 0;
 }
 a:visited, a:link{
 	color: #008E00;
