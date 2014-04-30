@@ -10,7 +10,7 @@ div{
 	text-align: center;
 	color: #FFFFFF;
 	width: 75%;
-	margin: 5px auto;
+	margin: 8px auto;
 	padding: 3px 5px;
 }
 h1{
@@ -21,6 +21,10 @@ h1{
 	margin: 0; 
   	padding: 10px; 
 }
+a{
+	color: #006D00;
+	text-decoration: none;
+}
 #links{
 	font-family: "Arial Black";
 	color: #FFFFFF;
@@ -28,4 +32,5 @@ h1{
 }
 #title{
 	width: 50%;
+	margin: 10px auto;
 }
