@@ -21,9 +21,15 @@ h1{
 	margin: 0; 
   	padding: 10px; 
 }
-a:hover, a:visited, a:link, a:active{
+a:visited, a:link{
 	color: #006D00;
 	text-decoration: none;
+	padding: 0px 15px;
+}
+a:hover,  a:active{
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 0px 15px;
 }
 #links{
 	font-family: "Arial Black";
