@@ -7,22 +7,20 @@ div{
 	border:5px #000000 solid;
 	border-radius:25px;
 	background-color: #000000;
+	text-align: center;
 	width: 50%;
 	margin: 0 auto;
 }
-#bodydiv{
-	border:5px solid;
-	border-radius:25px;
-	background-color: #000000;
-	opacity: 0.75;
-	height: 90%;
-}
 h1{
-	text-align: center;
 	font-family: "Arial Black";
 	color: #FFFFFF;
 	font-size: 2em;
 	line-height: normal;
 	margin: 0; 
   	padding: 10px; 
+}
+#links{
+	font-family: "Arial Black";
+	color: #FFFFFF;
+	font-weight; bold;
 }
