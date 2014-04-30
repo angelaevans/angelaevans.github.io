@@ -1,6 +1,6 @@
 body{
 	background-color: #000000;
-	background-image:url('/image/binary2.png');
+	background-image:url('/image/binary3.png');
 	background-repeat:repeat;
 }
 div{
@@ -8,6 +8,7 @@ div{
 	border-radius:25px;
 	background-color: #000000;
 	width: 50%;
+	position: center;
 }
 #bodydiv{
 	border:5px solid;
