@@ -22,14 +22,17 @@ h1{
   	padding: 10px; 
 }
 a:visited, a:link{
-	color: #006D00;
+	color: #008E00;
 	text-decoration: none;
-	padding: 0px 15px;
+	padding: 0px 25px;
 }
 a:hover,  a:active{
 	color: #FFFFFF;
 	text-decoration: none;
-	padding: 0px 15px;
+	padding: 0px 25px;
+}
+.green{
+	color: #008E00;
 }
 #links{
 	font-family: "Arial Black";
