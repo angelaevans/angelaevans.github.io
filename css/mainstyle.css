@@ -7,6 +7,7 @@ div{
 	border:5px #000000 solid;
 	border-radius:25px;
 	background-color: #000000;
+	font-family: "Arial Black";
 	text-align: center;
 	color: #FFFFFF;
 	width: 75%;
@@ -34,6 +35,10 @@ a:hover,  a:active{
 	color: #FFFFFF;
 	text-decoration: none;
 }
+.half{
+	width: 50%;
+	margin: 10px auto;
+}
 .green{
 	color: #008E00;
 }
@@ -44,8 +49,4 @@ a:hover,  a:active{
 	font-family: "Arial Black";
 	color: #FFFFFF;
 	font-weight; bold;
-}
-#title{
-	width: 50%;
-	margin: 10px auto;
 }
