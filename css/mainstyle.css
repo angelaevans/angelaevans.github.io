@@ -1,5 +1,13 @@
-body
-{
-background-image:url('/image/px_by_Gre3g.png');
-background-repeat:repeat;
+body{
+	background-image:url('/image/px_by_Gre3g.png');
+	background-repeat:repeat;
+}
+h1{
+	text-align: center;
+	font-family: "Arial Black";
+	background-color: #30ACFF;
+	font-size: 4em;
+	line-height: normal;
+	margin: 0; 
+  	padding: 10px; 
 }
