@@ -7,12 +7,11 @@ div{
 	border:5px #000000 solid;
 	border-radius:25px;
 	background-color: #000000;
-	font-family: "Arial Black";
+	font-family: "Arial";
 	text-align: center;
 	color: #FFFFFF;
 	width: 75%;
 	margin: 8px auto;
-	padding: 3px 5px;
 }
 h1{
 	font-family: "Arial Black";
@@ -20,12 +19,13 @@ h1{
 	font-size: 2.5em;
 	line-height: normal;
 	margin: 0; 
-  	padding: 10px; 
+	padding: 10px;
 }
 h3{
 	font-family: "Arial Black";
 	color: #008E00;
 	font-size: 1.5em;
+	line-height: normal;
 }
 a:visited, a:link{
 	color: #008E00;
