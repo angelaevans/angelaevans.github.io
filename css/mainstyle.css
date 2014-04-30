@@ -21,7 +21,7 @@ h1{
 	margin: 0; 
   	padding: 10px; 
 }
-a{
+a:hover, a:visited, a:link, a:active{
 	color: #006D00;
 	text-decoration: none;
 }
