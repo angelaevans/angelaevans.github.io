@@ -16,23 +16,29 @@ div{
 h1{
 	font-family: "Arial Black";
 	color: #FFFFFF;
-	font-size: 2em;
+	font-size: 4em;
 	line-height: normal;
 	margin: 0; 
   	padding: 10px; 
 }
+h3{
+	font-family: "Arial Black";
+	color: #008E00;
+	font-size: 1.5em;
+}
 a:visited, a:link{
 	color: #008E00;
 	text-decoration: none;
-	padding: 0px 25px;
 }
 a:hover,  a:active{
 	color: #FFFFFF;
 	text-decoration: none;
-	padding: 0px 25px;
 }
 .green{
 	color: #008E00;
+}
+.nav{
+	padding: 0px 25px;
 }
 #links{
 	font-family: "Arial Black";
