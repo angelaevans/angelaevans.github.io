@@ -3,14 +3,15 @@ body{
 	background-repeat:repeat;
 }
 div{
-	border:2px solid;
+	border:5px solid;
 	border-radius:25px;
-	background-color: #202020;}
+	background-color: #CCCCCC;
+}
 h1{
 	text-align: center;
 	font-family: "Arial Black";
-	color: #FFFFFF;
-	font-size: 4em;
+	color: #D699EB;
+	font-size: 3em;
 	line-height: normal;
 	margin: 0; 
   	padding: 10px; 
