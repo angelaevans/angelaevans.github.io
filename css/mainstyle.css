@@ -51,14 +51,12 @@ a:hover,  a:active{
 	height:1px;
 	width:100px;
 	background:#717171;
-	border-bottom:3px solid #313030;
 	float: right;
 }
 .linebefore{
 	height:1px;
 	width:20px;
 	background:#717171;
-	border-bottom:3px solid #313030;
 	float: left;
 }
 .blockheader{
