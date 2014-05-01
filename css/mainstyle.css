@@ -57,8 +57,8 @@ a:hover,  a:active{
 	padding: 0px 25px;
 }
 .linebefore{
-	color: #85C985;
-	background-color: #85C985;
+	color: #707070;
+	background-color: #707070;
 	border-color: #707070;
 	height: 1px;
 	width: 10%;
@@ -67,8 +67,8 @@ a:hover,  a:active{
 	float: left;
 }
 .lineafter{
-	color: #85C985;
-	background-color: #85C985;
+	color: #707070;
+	background-color: #707070;
 	border-color: #707070;
 	height: 1px;
 	width: 60%;
