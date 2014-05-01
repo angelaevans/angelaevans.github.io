@@ -63,6 +63,7 @@ a:hover,  a:active{
 	color: #008E00;
 	font-size: 1.25em;
 	text-align: left;
+	float: left;
 }
 #links{
 	font-family: "Arial Black";
