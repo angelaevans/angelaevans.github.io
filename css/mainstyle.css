@@ -63,7 +63,7 @@ a:hover,  a:active{
 	background: #FFFFFF;
 	width: 50px;
 	float: left;
-	margin-left: 20px;
+	font-size: 1.25em;
 }
 #links{
 	font-family: "Arial Black";
