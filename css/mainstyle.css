@@ -56,13 +56,16 @@ a:hover,  a:active{
 	height: 1px;
 	width: 20px;
 	margin-right: 5px;
-	margin-top: 10px;
+	margin-top: 11px;
 	float: left;
 }
 .lineafter{
+	color: #FFFFFF;
+	background-color: #FFFFFF;
 	height: 1px;
 	width: 400px;
 	margin-left: 5px;
+	margin-top: 11px;
 	float: left;
 }
 .blockheader{
