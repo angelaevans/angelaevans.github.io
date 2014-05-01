@@ -50,16 +50,18 @@ a:hover,  a:active{
 .nav{
 	padding: 0px 25px;
 }
+.linebefore{
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+	height: 1px;
+	width: 20px;
+	margin-right: 5px;
+	float: left;
+}
 .lineafter{
 	height: 1px;
 	width: 400px;
 	margin-left: 5px;
-	float: left;
-}
-.linebefore{
-	height: 1px;
-	width: 20px;
-	margin-right: 5px;
 	float: left;
 }
 .blockheader{
