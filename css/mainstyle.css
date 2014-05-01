@@ -60,10 +60,7 @@ a:hover,  a:active{
 	float: left;
 }
 .blockheader{
-	background: #FFFFFF;
-	width: 50px;
-	float: left;
-	margin-left: 25px;
+	color: #008E00;
 	font-size: 1.25em;
 	text-align: left;
 }
