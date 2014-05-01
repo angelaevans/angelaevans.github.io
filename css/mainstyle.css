@@ -62,7 +62,10 @@ a:hover,  a:active{
 	float: left;
 }
 .blockheader{
+	background: #FFFFFF;
 	width: 100px;
+	float: left;
+	margin-left: 25px;
 }
 #links{
 	font-family: "Arial Black";
