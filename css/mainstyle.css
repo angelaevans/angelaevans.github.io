@@ -53,6 +53,8 @@ a:hover,  a:active{
 .linebefore{
 	color: #005500;
 	background-color: #005500;
+	border-color: #005500;
+	height: 1px;
 	width: 10%;
 	margin-right: 5px;
 	margin-top: 11px;
@@ -61,6 +63,8 @@ a:hover,  a:active{
 .lineafter{
 	color: #005500;
 	background-color: #005500;
+	border-color: #005500;
+	height: 1px;
 	width: 60%;
 	margin-left: 5px;
 	margin-top: 11px;
