@@ -51,17 +51,17 @@ a:hover,  a:active{
 	padding: 0px 25px;
 }
 .linebefore{
-	color: #FFFFFF;
-	background-color: #FFFFFF;
+	color: #005500;
+	background-color: #005500;
 	height: 1px;
-	width: 20%;
+	width: 10%;
 	margin-right: 5px;
 	margin-top: 11px;
 	float: left;
 }
 .lineafter{
-	color: #FFFFFF;
-	background-color: #FFFFFF;
+	color: #005500;
+	background-color: #005500;
 	height: 1px;
 	width: 60%;
 	margin-left: 5px;
