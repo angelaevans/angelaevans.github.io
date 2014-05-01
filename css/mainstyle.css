@@ -47,13 +47,19 @@ a:hover,  a:active{
 .green{
 	color: #008E00;
 }
+.blue{
+	color: #5C71C5;
+}
+.orange{
+	color: #FF8B5C;
+}
 .nav{
 	padding: 0px 25px;
 }
 .linebefore{
 	color: #85C985;
 	background-color: #85C985;
-	border-color: #85C985;
+	border-color: #707070;
 	height: 1px;
 	width: 10%;
 	margin-right: 5px;
@@ -63,7 +69,7 @@ a:hover,  a:active{
 .lineafter{
 	color: #85C985;
 	background-color: #85C985;
-	border-color: #85C985;
+	border-color: #707070;
 	height: 1px;
 	width: 60%;
 	margin-left: 5px;
