@@ -19,7 +19,7 @@ h1{
 	font-size: 2.5em;
 	line-height: normal;
 	margin: 0; 
-	padding: 20px;
+	padding-top: 20px;
 }
 h3{
 	font-family: "Arial Black";
@@ -81,6 +81,9 @@ a:hover,  a:active{
 	width: 20%;
 	font-size: 1.5em;
 	float: left;
+}
+#byline{
+	padding: 5px;
 }
 #links{
 	font-family: "Arial Black";
