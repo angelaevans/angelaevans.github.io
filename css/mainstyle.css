@@ -83,6 +83,11 @@ a:hover,  a:active{
 	font-size: 1.5em;
 	float: left;
 }
+#credit{
+	color: #FFFFFF;
+	font-size: 0.75em;
+	opacity: 70%;
+}
 #links{
 	font-family: "Arial Black";
 	color: #FFFFFF;
