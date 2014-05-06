@@ -95,6 +95,9 @@ a:hover,  a:active{
 	color: #FFFFFF;
 	font-weight; bold;
 }
+#mainpic{
+	align: left;
+}
 #body{
 	padding: 20px;
 }
