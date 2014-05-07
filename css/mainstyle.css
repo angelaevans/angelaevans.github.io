@@ -22,6 +22,15 @@ h1{
 	padding-top: 20px;
 	padding-bottom: 0px;
 }
+h2{
+	font-family: "Arial Black";
+	color: #006D00;
+	font-size: 1.75em;
+	line-height: normal;
+	margin: 0; 
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
 h3{
 	font-family: "Arial";
 	color: #008E00;
