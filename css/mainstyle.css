@@ -107,6 +107,9 @@ a:hover,  a:active{
 	height: 190px;
 	float: right;
 }
+#byline{
+	color: #006D00;
+}
 #body{
 	padding: 20px;
 }
