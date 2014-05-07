@@ -96,7 +96,7 @@ a:hover,  a:active{
 	font-weight; bold;
 }
 #mainpic{
-	float: right;
+	float: left;
 }
 #body{
 	padding: 20px;
