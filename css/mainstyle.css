@@ -97,6 +97,13 @@ a:hover,  a:active{
 	font-family: "Arial";
 	float: right;
 }
+#iconcredit{
+	color: #FFFFFF;
+	font-size: 0.65em;
+	opacity: 0.3;
+	font-family: "Arial";
+	float: right;
+}
 #links{
 	font-family: "Arial Black";
 	color: #FFFFFF;
