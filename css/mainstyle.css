@@ -122,9 +122,9 @@ a:hover,  a:active{
 	padding: 20px;
 }
 #tvshowscroll{
-    width:530px;
+    width: 50%;
     height:210px;
-    border: 10px solid #006D00;
+    border: 3px dashed #006D00;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
