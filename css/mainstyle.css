@@ -91,6 +91,19 @@ a:hover,  a:active{
 	margin: 0; 
 	padding-top: 0;
 }
+.scroll{
+    width: 90%;
+    height: 160px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.scroll a {
+    display: inline;
+}
+.scroll img{
+    height: 150px;
+}
 #credit{
 	color: #FFFFFF;
 	font-size: 0.75em;
@@ -120,17 +133,4 @@ a:hover,  a:active{
 }
 #body{
 	padding: 20px;
-}
-.scroll{
-    width: 90%;
-    height: 150px;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-}
-.scroll a {
-    display: inline;
-}
-.scroll img{
-    height: 150px;
 }
