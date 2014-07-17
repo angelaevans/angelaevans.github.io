@@ -124,7 +124,7 @@ a:hover,  a:active{
 #tvshowscroll{
     width:530px;
     height:210px;
-    border: 13px solid #bed5cd;
+    border: 10px solid #006D00;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
