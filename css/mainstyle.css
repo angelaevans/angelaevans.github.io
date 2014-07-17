@@ -121,3 +121,14 @@ a:hover,  a:active{
 #body{
 	padding: 20px;
 }
+#tvshowscroll{
+    width:530px;
+    height:210px;
+    border: 13px solid #bed5cd;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+#tvshowscroll a {
+    display: inline;
+}
