@@ -113,21 +113,6 @@ a:hover,  a:active{
 .scroll img{
     height: 150px;
 }
-#credit{
-	color: #FFFFFF;
-	font-size: 0.75em;
-	opacity: 0.5;
-	font-family: "Arial";
-	float: right;
-}
-
-#iconcredit{
-	color: #FFFFFF;
-	font-size: 0.65em;
-	opacity: 0.3;
-	font-family: "Arial";
-	float: right;
-}
 #links{
 	font-family: 'Ubuntu Mono';
 	color: #FFFFFF;
@@ -149,6 +134,9 @@ a:hover,  a:active{
 	color: #006D00;
     font-family: 'Ubuntu Mono';
     font-size: 1.75em;
+}
+#me{
+	float: left;
 }
 
 /* code for animated blinking cursor */
