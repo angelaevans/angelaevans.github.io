@@ -143,10 +143,12 @@ a:hover,  a:active{
 }
 #body{
 	padding: 20px;
+    margin: 20px;
 }
 #typed{
 	color: #006D00;
     font-family: 'Ubuntu Mono';
+    font-size: 1.75em;
 }
 
 /* code for animated blinking cursor */
