@@ -137,6 +137,8 @@ a:hover,  a:active{
 }
 #me{
 	float: left;
+	width: 50%;
+	height: 50%;
 }
 
 /* code for animated blinking cursor */
