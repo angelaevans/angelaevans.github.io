@@ -138,7 +138,9 @@ a:hover,  a:active{
 #me{
 	float: left;
 	max-width: 30%;
-	max-height: 30%;
+}
+#header{
+	max-height: 20%
 }
 
 /* code for animated blinking cursor */
