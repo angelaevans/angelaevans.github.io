@@ -135,9 +135,6 @@ a:hover,  a:active{
     font-family: 'Ubuntu Mono';
     font-size: 1.75em;
 }
-#header{
-	max-height: 30%;
-}
 
 /* code for animated blinking cursor */
 .typed-cursor{
