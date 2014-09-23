@@ -137,8 +137,7 @@ a:hover,  a:active{
 }
 #me{
 	/*float: left;*/
-	max-height: 200px
-	max-width: 30%;
+	max-width: 200px;
 }
 #header{
 	max-height: 20%
