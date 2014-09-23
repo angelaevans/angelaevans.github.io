@@ -135,9 +135,6 @@ a:hover,  a:active{
     font-family: 'Ubuntu Mono';
     font-size: 1.75em;
 }
-#me{
-	float: left;
-}
 #header{
 	height: 30%;
 }
