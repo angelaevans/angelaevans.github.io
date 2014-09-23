@@ -136,11 +136,10 @@ a:hover,  a:active{
     font-size: 1.75em;
 }
 #me{
-	/*float: left;*/
-	max-width: 200px;
+	float: left;
 }
 #header{
-	max-height: 20%
+	height: 30%;
 }
 
 /* code for animated blinking cursor */
