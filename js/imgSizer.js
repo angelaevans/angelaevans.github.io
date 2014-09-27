@@ -1,7 +1,7 @@
 var imgSizer = {
 	Config : {
 		imgCache : []
-		,spacer : "/image/webprofile.jpeg"
+		,spacer : "/image/sizer.gif"
 	}
 
 	,collate : function(aScope) {
