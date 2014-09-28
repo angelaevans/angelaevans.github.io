@@ -158,8 +158,8 @@ a:hover,  a:active{
 	/*align: left;*/
 	float: left;
 	display:inline-block;
-	max-width:10%;
-	max-height: 100px;
+	max-width:20%;
+	max-height: 200px;
 	margin: 3px;
 }
 
