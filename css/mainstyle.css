@@ -132,7 +132,7 @@ a:hover,  a:active{
 }
 #body{
 	padding: 20px;
-    margin: 20px;
+    margin: 10px;
 }
 #typed{
 	color: #006D00;
@@ -140,10 +140,12 @@ a:hover,  a:active{
     font-size: 1.75em;
 }
 #me{
-	align: left;
+	/*align: left;*/
+	float: left;
 	display:inline-block;
 	max-width:10%;
 	max-height: 100px;
+	margin: 3px;
 }
 
 /* code for animated blinking cursor */
