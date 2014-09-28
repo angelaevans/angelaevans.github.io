@@ -135,6 +135,7 @@ a:hover,  a:active{
 	color: #006D00;
 }
 #heading{
+	height: 20px;
 	padding: 5px;
 	padding-bottom: 10px;
     margin-top: 5px;
