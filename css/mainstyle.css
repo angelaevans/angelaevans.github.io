@@ -141,6 +141,7 @@ a:hover,  a:active{
 }
 #me{
 	align: left;
+	display:inline-block;
 	max-width:10%;
 	max-height: 100px;
 }
