@@ -72,8 +72,9 @@ a:hover,  a:active{
 	border-color: #707070;
 	height: 1px;
 	width: 10%;
-	margin-right: 5px;
+	margin-right: 10px;
 	margin-top: 11px;
+	margin-bottom: 11px;
 	float: left;
 }
 .lineafter{
@@ -82,8 +83,9 @@ a:hover,  a:active{
 	border-color: #707070;
 	height: 1px;
 	width: 60%;
-	margin-left: 5px;
+	margin-left: 10px;
 	margin-top: 11px;
+	margin-bottom: 11px;
 	float: right;
 }
 .blockheader{
@@ -96,7 +98,7 @@ a:hover,  a:active{
 .subheader{
 	font-style: italic;
 	color: #008E00;
-	font-size: 1.1em;
+	font-size: 1.25em;
 	font-weight: bold;
 }
 .projecthead{
