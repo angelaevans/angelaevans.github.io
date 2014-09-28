@@ -128,11 +128,17 @@ a:hover,  a:active{
 }
 #heading{
 	padding: 5px;
-    margin: 5px;
+    margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 #body{
 	padding: 20px;
-    margin: 10px;
+    margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 #typed{
 	color: #006D00;
