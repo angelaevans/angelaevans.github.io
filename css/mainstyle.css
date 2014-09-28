@@ -93,6 +93,12 @@ a:hover,  a:active{
 	font-weight: bold;
 	float: left;
 }
+.subheader{
+	font-style: italic;
+	color: #008E00;
+	font-size: 1.1em;
+	font-weight: bold;
+}
 .projecthead{
 	font-family: "Arial Black";
 	color: #006D00;
