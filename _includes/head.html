@@ -8,4 +8,33 @@
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+	
+	<!-- Get jQuery for typed widget-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/typed.js" type="text/javascript"></script>
+	<script>
+	    $(function(){
+	      
+	      $("#typed").typed({
+	                        strings: ["I'm a Student ", "I'm a Coffee Addict ", "I'm a Cat Lover ", "I'm a TV Show Fanatic ", "I'm a Programmer "],
+	                        typeSpeed: 30,
+	                        backDelay: 600,
+	                        loop: false,
+	                        // defaults to false for infinite loop
+	                        loopCount: false,
+	                        callback: function(){ foo(); },
+	                        resetCallback: function() { newTyped(); }
+	                        });
+	      
+	      $(".reset").click(function(){
+	                        $("#typed").typed('reset');
+	                        });
+	      
+	      });
+	      
+	      function newTyped(){ /* A new typed object */ }
+	      
+	      function foo(){ console.log("Callback"); }
+	      
+	</script>
 </head>

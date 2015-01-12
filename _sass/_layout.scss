@@ -1,11 +1,13 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu);
+
+
 /**
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
+    min-height: 70px;
+	background-color: #000000;
+	//font-family: 'Ubuntu Mono'; gotta add the support for google fonts
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -32,8 +34,9 @@
     }
 
     .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
+        font-family: Ubuntu Mono;
+        font-size: 1.25em;
+        line-height: 1;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -92,19 +95,28 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+	background-color: #000000;
+	margin: 0 auto;
+    width: 80%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	//font-family: 'Ubuntu Mono'; gotta add the support for google fonts
 }
 
 .footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+    font-size: 20px;
+    margin-bottom: $spacing-unit / 4;
 }
 
 .contact-list,
 .social-media-list {
     list-style: none;
     margin-left: 0;
+}
+.contact{
+	display: inline-block;
 }
 
 .footer-col-wrapper {
@@ -126,13 +138,13 @@
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -162,11 +174,28 @@
  * Page content
  */
 .page-content {
+    font-family: 'Ubuntu Mono';
+    color: #E2E2E2;
     padding: $spacing-unit 0;
+	background-color: #000000;
+	margin: 20px auto;
+    width: 60%;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .page-heading {
-    font-size: 20px;
+    font-family: 'Ubuntu Mono';
+    color: #008E00;
+    font-size: 1.5em;
+}
+
+.page-subheading {
+    font-family: 'Ubuntu Mono';
+    color: #008E00;
+    font-size: 1.25em;
+    font-style: italic;
 }
 
 .post-list {

@@ -1,13 +1,17 @@
 # Site settings
-title: Angela Evans
+title: Angela's Blog
+name: Angela Evans
 email: angelaevans@ufl.edu
+email2: theangelatte@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  The personal website of Angela Evans, Computer Science Senior at the University of Florida. Feel free to contact with any comments/suggestions!
+  The personal website of Angela Evans, Computer Science Senior at the University of Florida. Feel free to contact with any comments or suggestions!
 baseurl: "" # the subpath of your site, e.g. /blog/
 homeurl: "devblog.html"
 url: "http://angelaevans.me" # the base hostname & protocol for your site
 twitter_username: ange_latte
 github_username:  angelaevans
+linkedin_username: angelaleaevans
+googleplus_username: AngelaEvansAngelatte
 
 # Build settings
 highlighter: rouge

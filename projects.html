@@ -1,134 +1,29 @@
 ---
+layout: default
 title: Projects
 include: true;
 ---
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="/css/mainstyle.css">
-<title>
-Angela Evans | Projects
-</title>
-<!-- Get jQuery -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="js/typed.js" type="text/javascript"></script>
-<!--script src="js/imgSizer.js" type="text/javascript"></script-->
-<script>
-var imgSizer = {
-	Config : {
-		imgCache : []
-		,spacer : "/image/sizer.gif"
-	}
 
-	,collate : function(aScope) {
-		var isOldIE = (document.all && !window.opera && !window.XDomainRequest) ? 1 : 0;
-		if (isOldIE && document.getElementsByTagName) {
-			var c = imgSizer;
-			var imgCache = c.Config.imgCache;
+<div class="home">
 
-			var images = (aScope && aScope.length) ? aScope : document.getElementsByTagName("img");
-			for (var i = 0; i < images.length; i++) {
-				images[i].origWidth = images[i].offsetWidth;
-				images[i].origHeight = images[i].offsetHeight;
+  <h1 class="page-heading">Personal Projects</h1>
 
-				imgCache.push(images[i]);
-				c.ieAlpha(images[i]);
-				images[i].style.width = "100%";
-			}
+  <p><span class="projecthead">Lead developer for <a href="" target="_blank">In Production Game</a>.</span><br> 
+Description will be added later. The game is still in the planning phase, and once more details are decided this will be updated.</p> 
 
-			if (imgCache.length) {
-				c.resize(function() {
-					for (var i = 0; i < imgCache.length; i++) {
-						var ratio = (imgCache[i].offsetWidth / imgCache[i].origWidth);
-						imgCache[i].style.height = (imgCache[i].origHeight * ratio) + "px";
-					}
-				});
-			}
-		}
-	}
+  <h1 class="page-heading">Course Projects</h1>
+ 
+<p><span class="projecthead">A Lead Developer to <a href="" target="_blank">SeenByMe</a>.</span><br>
+Description Coming Soon.</p>
 
-	,ieAlpha : function(img) {
-		var c = imgSizer;
-		if (img.oldSrc) {
-			img.src = img.oldSrc;
-		}
-		var src = img.src;
-		img.style.width = img.offsetWidth + "px";
-		img.style.height = img.offsetHeight + "px";
-		img.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + src + "', sizingMethod='scale')"
-		img.oldSrc = src;
-		img.src = c.Config.spacer;
-	}
-
-	// Ghettomodified version of Simon Willison's addLoadEvent() -- http://simonwillison.net/2004/May/26/addLoadEvent/
-	,resize : function(func) {
-		var oldonresize = window.onresize;
-		if (typeof window.onresize != 'function') {
-			window.onresize = func;
-		} else {
-			window.onresize = function() {
-				if (oldonresize) {
-					oldonresize();
-				}
-				func();
-			}
-		}
-	}
-}
-</script>
-<script>
-    $(function(){
-      
-      $("#typed").typed({
-                        strings: ["I'm a Student ", "I'm a Coffee Addict ", "I'm a Cat Lover ", "I'm a TV Show Fanatic ", "I'm a Programmer "],
-                        typeSpeed: 30,
-                        backDelay: 600,
-                        loop: false,
-                        // defaults to false for infinite loop
-                        loopCount: false,
-                        callback: function(){ foo(); },
-                        resetCallback: function() { newTyped(); }
-                        });
-      
-      $(".reset").click(function(){
-                        $("#typed").typed('reset');
-                        });
-      
-      });
-      
-      function newTyped(){ /* A new typed object */ }
-      
-      function foo(){ console.log("Callback"); }
-      
-</script>
-</head>
-<body>
-<div class="type-wrap">
-    <h1>Angela Evans</h1>
-    <span id="typed" style="white-space:pre;"></span>
-</div>
-<div class="half">
-<span id="links"><a class="nav" href="index.html">HOME</a>	|	<a class="nav" href="projects.html">PROJECTS</a>	|	<a class="nav" href="resume.html">RESUME</a></span>
-</div>
-<div id="heading">
-<hr class="linebefore"><span class="blockheader">Personal</span><hr class="lineafter">
-</div>
-<div id="body">
-<p><span class="projecthead">Lead developer for <a href="" target="_blank">In Production Game</a>.</span><br> 
-Description will be added later. The game is still in the planning phase, and once more details are decided this will be updated.</p>  
-</div>
-<div id="heading">
-<hr class="linebefore"><span class="blockheader">Academic</span><hr class="lineafter">
-</div>
-<div id="body">
-<p><span class="projecthead">A contributor to <a href="https://github.com/security-cheatsheets/Cheatsheets" target="_blank">Security Cheatsheets</a>.</span><br> 
-This project expands upon the default set of cheatsheets, and the purpose of these cheatsheets are to aid penetration testers/CTF participants/security enthusiasts in remembering commands that are useful, but not frequently used. The "sheets" themselves are written in plain text, and run using the cheatsheet setup from the main library.</p>
-<p><span class="projecthead">A contributor to <a href="https://github.com/AngryStickStudios/StickFlick" target="_blank">Stick Flick</a>.</span><br>
+<p><span class="projecthead">A Lead Developer to <a href="https://github.com/AngryStickStudios/StickFlick" target="_blank">Stick Flick</a>.</span><br>
 This game is a remodelling of the old flash Defend Your Tower game designed for mobile android use. You play from the perspective of your castle, and you flick StuckDude enemies away from your castle until they take enough damage to die. There are various types of StickDudes and power-ups to add a bit of variance to gameplay. This is developed using Java and the LibGDX libraries.</p>
-<p><span class="projecthead">A contributor to <a href="https://github.com/cis4301sp14/Kuroko-no-Databasuke" target="_blank">Kuroko no Databasuke</a>.</span><br> 
-This project developed a two person chat that used only images for communication. Only the most recent image sent is shown in the chat, and the chat display is updated as soon as the database is updated with a new sent/received image. It was developed using a combination of HTML, CSS, PHP, JavaScript, and PostgreSQL.<
+
+<p><span class="projecthead">A Lead Developer to <a href="https://github.com/cis4301sp14/Kuroko-no-Databasuke" target="_blank">Kuroko no Databasuke</a>.</span><br> 
+This project developed a two person chat that used only images for communication. Only the most recent image sent is shown in the chat, and the chat display is updated as soon as the database is updated with a new sent/received image. It was developed using a combination of HTML, CSS, PHP, JavaScript, and PostgreSQL.
 </p>
+
+ <p><span class="projecthead">A contributor to <a href="https://github.com/security-cheatsheets/Cheatsheets" target="_blank">Security Cheatsheets</a>.</span><br> 
+This project expands upon the default set of cheatsheets, and the purpose of these cheatsheets are to aid penetration testers/CTF participants/security enthusiasts in remembering commands that are useful, but not frequently used. The "sheets" themselves are written in plain text, and run using the cheatsheet setup from the main library.</p>
+
 </div>
-<!--Background image property of simius 7 http://simius7.deviantart.com/ -->
-</body>
-</html>
