@@ -208,13 +208,12 @@
 }
 
 .post-meta {
-    font-size: $small-font-size;
+    font-size: 0.9em;
     color: $grey-color;
 }
 
 .post-link {
     display: block;
-    font-size: 24px;
 }
 
 
@@ -227,7 +226,9 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-family: Ubuntu;
+    font-size: 1.5em;
+    color: #008E00;
     letter-spacing: -1px;
     line-height: 1;
 
@@ -237,10 +238,11 @@
 }
 
 .post-content {
+    font-family: Ubuntu Mono;
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-size: 1.3em;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -248,7 +250,7 @@
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 1.2em;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -256,10 +258,15 @@
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 1.1em;
 
         @include media-query($on-laptop) {
             font-size: 18px;
         }
     }
+}
+#typed{
+    color: #006D00;
+    font-family: 'Ubuntu Mono';
+    font-size: 1.5em;
 }
