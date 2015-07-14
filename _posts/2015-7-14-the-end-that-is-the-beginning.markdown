@@ -14,7 +14,7 @@ In the mean time, the Angela anime recommendation of the day goes out to [World 
 I'll get back to those job applications now..... *sigh*
 Angela out 
 
-World Trigger:		http://www.crunchyroll.com/world-trigger
+[World Trigger]:		http://www.crunchyroll.com/world-trigger
 
 
 
