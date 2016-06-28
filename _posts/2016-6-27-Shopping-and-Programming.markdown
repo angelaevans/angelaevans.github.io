@@ -5,7 +5,7 @@ date:   2016-6-27 20:00:00
 categories: moved job IT mess-ups
 description: This will be a bit to talk about how I discovered a dormant part of myself while shopping for my apartment (cause I promised last time, I didn't forget!), and also to explain a revelation I had recently about my career path goals.
 ---
-###Shopping
+### Shopping
 
 So, I've always had mixed feelings about shopping in general. I've never had a lot of money, so it's always been a balancing act between how much I feel like I can spend and what I want. Usually the "not shopping" won, and I'd save up for some piece of technology.
 
