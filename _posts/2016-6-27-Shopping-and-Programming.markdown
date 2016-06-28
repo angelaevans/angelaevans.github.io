@@ -35,6 +35,6 @@ Angela out
 
 [Subnautica]:http://store.steampowered.com/app/264710
 [Container Store]:http://www.containerstore.com/
-[quit his 8-5 government job for his dream] :http://adzerk.com/blog/2015/11/getting-your-first-programming-job-not-as-hard-as-you-think/
-[click here to read the whole thing, I highly recommend it]: http://markmanson.net/passion
-[ButFirstCats.today]: http://www.butfirstcats.today/
+[quit his 8-5 government job for his dream]:http://adzerk.com/blog/2015/11/getting-your-first-programming-job-not-as-hard-as-you-think/
+[click here to read the whole thing, I highly recommend it]:http://markmanson.net/passion
+[ButFirstCats.today]:http://www.butfirstcats.today/
